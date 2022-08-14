@@ -1,4 +1,5 @@
 import Sidebar from "./components/Sidebar";
+import NavBarSimple from "./components/NavBarSimple";
 import css from "./App.module.css";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className={css.App}>
       {}
       <Sidebar />
+      <NavBarSimple />
     </div>
   );
 }
